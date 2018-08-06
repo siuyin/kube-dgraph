@@ -42,6 +42,7 @@ spec:
       labels:
         app: dgraph
     spec:
+      terminationGracePeriodSeconds: 10
       containers:
       - name: ratel
         image: dgraph/dgraph:latest
